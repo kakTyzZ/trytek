@@ -1,0 +1,60 @@
+.cardSpan{
+    font-weight: bold;
+}
+.cardInfoBold{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+}
+.headerContainer div{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+.active{
+    background: rgb(124, 214, 124);
+}
+.addressContainer{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    padding: 10px;
+}
+.phoneContainer{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    padding: 10px;
+}
+.cardButton{
+    border:none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+   /*  background: rgb(66, 66, 201); */
+    background: #52C8C6;
+    color:black;
+}
+.cardGreyBg{
+    background: #A4C8AE;
+    border-radius: 4px;
+    padding: 5px;
+}

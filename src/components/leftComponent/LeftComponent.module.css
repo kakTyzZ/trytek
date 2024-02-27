@@ -1,0 +1,161 @@
+.mainContainer{
+    max-width: 60%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    
+    padding: 30px;
+    background: white;
+    margin: 30px;
+}
+.spanBig{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.headerContainer{
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.3);
+}
+.headerElement{
+    padding: 10px;
+    font-size: 30px;
+    border:none;
+    background: white;
+    cursor: pointer;
+    
+    
+}
+.headerElementActive{
+     padding: 10px;
+    font-size: 30px;
+    border:none;
+    /* background: rgba(200, 105, 32, 0.2); */
+    background: #52C8C6;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+.active{
+    background: rgb(76, 170, 76);
+}
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.info div{
+    border-bottom: 2px solid black;
+   
+}
+
+.services{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border:1px solid grey;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.services_mainBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 24px;
+    font-weight: normal;
+    
+}
+.services_mainBlock div{
+    
+    padding: 4px 10px;
+}
+.services_leftBlock{
+    display: flex;
+    padding: 10px;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.services_rightBlock{
+    display: flex;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.svg{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+.services_status{
+    background: green;
+    color: white;
+    border-radius: 15px;
+}
+
+.devicesContainer{
+    width: 100%;
+    border-radius: 10px;
+    transition: all 3s ease;
+} 
+    
+.devicesInnerContainer{
+    margin-top: 10px;
+   /*  background: rgba(0, 0, 0, 0.2); */
+   background: #BDE6C9;
+    
+
+}
+
+
+.devicesLeftBlockContainer{
+    display: flex;
+}
+.devicesHeader{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.devicesButton{
+    width: 40px;
+    height: 40px;
+    border:none;
+    background: none;
+}
+.modalOuterContainer{
+    
+    padding:10px 20px;
+    
+    animation: scale 0.2s ease-in-out;
+}
+@keyframes scale {
+    from {
+        
+        transform: scale(0);
+    }
+    to{
+        
+        transform: scale(1);
+    }
+}
+
+.devicesModalContainer{
+    background: white;
+    padding: 10px;
+    font-weight: normal;
+}
+.devicesModalContainer div{
+    border-bottom: 1px solid black;
+}
+.devicesModalContainer :nth-child(1){
+    border:none;
+    font-size: 1.5rem;
+    color: blue;
+}

@@ -1,0 +1,114 @@
+.rightMainContainer{
+    width: 40%;
+    margin: 30px;
+    background: white;
+    font-size: 22px;
+    padding: 10px;
+}
+.rightMainContainer :nth-child(-n+6){
+    margin-bottom: 10px;
+}
+.payInput{
+    width: 20%;
+    border-top-left-radius: 15px;
+    padding: 10px 15px;
+}
+.payInput:focus{
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.3);
+}
+.payButton{
+    border:none;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+    background: #5A748F;
+    color:white;
+    padding: 13px 15px;
+    transition:all 0.2s ease-in-out;
+}
+.payButton:hover{
+    transform:scale(1.1)
+}
+.payFooterUs{
+    display: flex;
+    justify-content: space-between;
+}
+.payFooterContainerFirst{
+    display: flex;
+}
+.payFooterContainerFirst button{
+    cursor: pointer;
+    padding: 5px 7px;
+    background: rgb(85, 85, 202);
+    color:white;
+}
+.payFooterContainerFirst :nth-child(1){
+    border-bottom-left-radius: 15px;
+}
+.payFooterContainerFirst :nth-child(2){
+    background: grey;
+    border-top-right-radius: 15px;
+}
+.buttonMainContainer{
+    display: flex;
+   }
+.buttonContainer{
+   display: flex;
+   flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    
+}
+.buttonContainerMaxWidth{
+    display: flex;
+    flex-direction: column;
+    }
+.mainButton{
+    border:none;
+    padding: 15px 70px;
+background: #4D59C7;
+    font-size: 24px;
+    color:white;
+    margin: 3px 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+}
+.lowOpacity{
+    opacity:0.3;
+    border:none;
+    padding: 15px 50px;
+    background: blueviolet;
+    font-size: 24px;
+    color:white;
+    margin: 3px 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+}
+.mainButton:hover{
+    background: rgb(50, 185, 45);
+}
+.lowOpacity:hover{
+    background: rgb(50, 185, 45);
+}
+.ServicesComponentContainer{
+   display: flex;
+   flex-direction: column;
+   
+}
+@media (max-width: 1424px) {
+    .rightMainContainer{
+        width: 30%;
+        margin: 20px;
+        font-size: 18px;
+        padding: 7px;
+    }
+    .mainButton{
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+    .lowOpacity{
+        padding: 15px 35px;
+        font-size: 18px;
+    }
+}
